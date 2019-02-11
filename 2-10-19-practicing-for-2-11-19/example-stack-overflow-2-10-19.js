@@ -17,15 +17,6 @@ var resultOne = objArray.map(function(a) {return a.foo;});
 console.log(resultOne);
 
 
-//This returns undefined...
-/*********************************************************************//*
-function pullClass(array) {
-	array.map(function(e) {
-		return e.starship;
-	});
-}
 
-let firstMappedArray = pullClass(testArray);
 
-console.log(firstMappedArray);
-******************************************************************************/
+

@@ -32,6 +32,17 @@ let trekArray = [
 /* THESE MAP OVER THE ARRAY AND RETURN NEW STRING OBJECT ARRAYS WITH ONLY SELECTED ELEMENT
  * ************************************************************************************/
 // console.log(trekArray);
+// function pullClass(array) {
+// 	let newArray = [];
+// 	array.map(function(e) {
+// 		return e.starship;
+// 	});
+// 	return array;
+// }
+//
+// let firstMappedArray = pullClass(testArray);
+//
+// console.log(firstMappedArray);
 
 let starshipMappedArray = trekArray.map(function(element) {return element.starship;});
 

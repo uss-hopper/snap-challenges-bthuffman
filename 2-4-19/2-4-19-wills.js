@@ -5,3 +5,4 @@ function removeF (array) {
 }
 
 console.log(removeF(array1));
+

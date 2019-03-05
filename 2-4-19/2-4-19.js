@@ -18,10 +18,10 @@ console.log(startsWithF);
 // console.log(newArray);
 
 //no affect
-function noFWords (element) {
-	return element !== startsWithF;
-}
-
-let filtered = wordZ.filter(noFWords);
+// function noFWords (element) {
+// 	return element !== startsWithF;
+// }
+//
+// let filtered = wordZ.filter(noFWords);
 
 // console.log(filtered);

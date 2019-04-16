@@ -15,7 +15,7 @@ window.onload = () => {
 	});
 	let insertText = document.getElementById('insertText');
 	insertText.innerHtml = arrayToBootstrap.join("\r\n");
-	console.log(arrayToBootstrap.toString());
+	document.write(arrayToBootstrap.toString());
 };
 
 
